@@ -1,0 +1,413 @@
+[
+{
+    "model": "products.subcategory",
+    "pk": 1,
+    "fields": {
+        "category": "TNA",
+        "description": "TNA Gangtok"
+    }
+}, 
+{
+    "model": "products.subcategory",
+    "pk": 2,
+    "fields": {
+        "category": "SMCPT",
+        "description": "SMCPT Gangtok"
+    }
+}, 
+{
+    "model": "products.subcategory",
+    "pk": 3,
+    "fields": {
+        "category": "NBBDC",
+        "description": "NBBDC Gangtok"
+    }
+},    
+{
+    "model": "products.category",
+    "pk": 1,
+    "fields": {
+        "category": "jacket"
+    }
+},
+{
+    "model": "products.category",
+    "pk": 2,
+    "fields": {
+        "category": "joggers"
+    }
+},
+{
+    "model": "products.category",
+    "pk": 3,
+    "fields": {
+        "category": "tshirts"
+    }
+},
+{
+    "model": "products.category",
+    "pk": 4,
+    "fields": {
+        "category": "shoes"
+    }
+},
+
+{
+    "model": "products.size",
+    "pk": 1,
+    "fields": {
+        "size": "UK 24"
+    }
+},
+{
+    "model": "products.size",
+    "pk": 2,
+    "fields": {
+        "size": "UK 26"
+    }
+},
+{
+    "model": "products.size",
+    "pk": 3,
+    "fields": {
+        "size": "UK 28"
+    }
+},
+{
+    "model": "products.size",
+    "pk": 4,
+    "fields": {
+        "size": "UK 30"
+    }
+},
+{
+    "model": "products.size",
+    "pk": 5,
+    "fields": {
+        "size": "UK 32"
+    }
+},
+{
+    "model": "products.size",
+    "pk": 6,
+    "fields": {
+        "size": "UK 34"
+    }
+},
+{
+    "model": "products.size",
+    "pk": 7,
+    "fields": {
+        "size": "UK 36"
+    }
+},
+{
+    "model": "products.size",
+    "pk": 8,
+    "fields": {
+        "size": "UK 38"
+    }
+},
+{
+    "model": "products.size",
+    "pk": 9,
+    "fields": {
+        "size": "UK 40"
+    }
+},
+{
+    "model": "products.size",
+    "pk": 10,
+    "fields": {
+        "size": "UK 42"
+    }
+},
+{
+    "model": "products.size",
+    "pk": 11,
+    "fields": {
+        "size": "UK 44"
+    }
+},
+{
+    "model": "products.size",
+    "pk": 12,
+    "fields": {
+        "size": "UK 46"
+    }
+},
+{
+    "model": "products.size",
+    "pk": 13,
+    "fields": {
+        "size": "UK 48"
+    }
+},
+{
+    "model": "products.color",
+    "pk": 1,
+    "fields": {
+        "color": "black"
+    }
+},
+{
+    "model": "products.color",
+    "pk": 2,
+    "fields": {
+        "color": "blue"
+    }
+},
+{
+    "model": "products.color",
+    "pk": 3,
+    "fields": {
+        "color": "cream"
+    }
+},
+{
+    "model": "products.color",
+    "pk": 4,
+    "fields": {
+        "color": "pink"
+    }
+},
+{
+    "model": "products.color",
+    "pk": 5,
+    "fields": {
+        "color": "red"
+    }
+},
+{
+    "model": "products.color",
+    "pk": 6,
+    "fields": {
+        "color": "white"
+    }
+},
+{
+    "model": "products.color",
+    "pk": 7,
+    "fields": {
+        "color": "grey"
+    }
+},
+{
+    "model": "products.color",
+    "pk": 8,
+    "fields": {
+        "color": "orange"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 1,
+    "fields": {
+        "category": 1,
+        "subcategory": 1,
+        "name": "TNA Bomber Jacket",
+        "description": "<p><strong>Details</strong></p>\r\n<p>TNA Bomber Jacket Description</p>\r\n<p>&nbsp;</p>\r\n<p><strong>Content + Care</strong></p>\r\n<p>- 90% polyester, 10% elastane</p>\r\n<p>- Hand wash cold</p>\r\n<p>- Made in Turkey</p>\r\n<p>&nbsp;</p>\r\n<p><strong>Size + Fit</strong></p>\r\n<p>- Model is 5'9\" and wearing a Small</p>\r\n<p>- Full length: 29.5\"</p>\r\n<p>- Chest: 31\"</p>\r\n<p>- Waist: 25.5\"</p>\r\n<p>- Sleeve length: 26\"</p>",
+        "price": "700.00",
+        "created": "2021-11-18T22:25:05Z",
+        "size": [
+            5,
+            6,
+            7,
+            8,
+            10,
+            9,
+            4,
+            3
+        ],
+        "color": [
+            1
+        ]
+    }
+},
+{
+    "model": "products.product",
+    "pk": 2,
+    "fields": {
+        "category": 2,
+        "subcategory": 1,
+        "name": "TNA Joggers",
+        "description": "<p><strong>Details</strong></p>\r\n<p>TNA Joggers</p>\r\n<p>&nbsp;</p>\r\n<p><strong>Content + Care</strong></p>\r\n<p>- 61% polyester, 31% nylon, 8% spandex</p>\r\n<p>- Hand wash cold</p>\r\n<p>- Made in Vietnam</p>\r\n<p>&nbsp;</p>\r\n<p><strong>Size + Fit</strong></p>\r\n<p>- Model is 5'7\" and wearing a Small</p>\r\n<p>- Full length: 15.5\"</p>\r\n<p>- Chest: 28\"</p>\r\n<p>- Waist: 23\"</p>\r\n<p>- Sleeve length: 6.5\"</p>",
+        "price": "550.00",
+        "created": "2012-11-20T20:33:09Z",
+        "size": [
+            5,
+            6,
+            7,
+            8,
+            10,
+            9,
+            4,
+            3
+        ],
+        "color": [
+            3
+        ]
+    }
+},
+{
+    "model": "products.product",
+    "pk": 3,
+    "fields": {
+        "category": 3,
+        "subcategory": 1,
+        "name": "TNA House Tshirt",
+        "description": "<p><strong>Details</strong></p>\r\n<p>TNA House Tshirt</p>\r\n<p>&nbsp;</p>\r\n<p><strong>Content + Care</strong></p>\r\n<p>- 96% polyester, 4% spandex</p>\r\n<p>- Hand wash cold</p>\r\n<p>- Made in China</p>\r\n<p>&nbsp;</p>\r\n<p><strong>Size + Fit</strong></p>\r\n<p>- Model is 5'9\" and wearing a Small</p>\r\n<p>- Inseam: 24\"</p>\r\n<p>- Waist: 21\"</p>\r\n<p>- Rise: 10\"</p>",
+        "price": "420.00",
+        "created": "2017-11-22T21:41:59Z",
+        "size": [
+            5,
+            6,
+            7,
+            8,
+            10,
+            9,
+            4,
+            3
+        ],
+        "color": [
+            1
+        ]
+    }
+},
+{
+    "model": "products.image",
+    "pk": 1,
+    "fields": {
+        "product": 1,
+        "name": "dress-01-1",
+        "image": "images/dress-01-1.jpg"
+    }
+},
+{
+    "model": "products.image",
+    "pk": 2,
+    "fields": {
+        "product": 1,
+        "name": "dress-01-2",
+        "image": "images/dress-01-2.jpg"
+    }
+},
+{
+    "model": "products.image",
+    "pk": 3,
+    "fields": {
+        "product": 1,
+        "name": "dress-01-3",
+        "image": "images/dress-01-3.jpg"
+    }
+},
+{
+    "model": "products.stock",
+    "pk": 1,
+    "fields": {
+        "amount": 700,
+        "product": 1,
+        "size": 5,
+        "color": 1,
+        "quantity": 10
+    }
+},
+{
+    "model": "products.stock",
+    "pk": 2,
+    "fields": {
+        "amount": 750,
+        "product": 1,
+        "size": 6,
+        "color": 1,
+        "quantity": 10
+    }
+},
+{
+    "model": "products.stock",
+    "pk": 3,
+    "fields": {
+        "amount": 800,
+        "product": 1,
+        "size": 7,
+        "color": 1,
+        "quantity": 10
+    }
+},
+{
+    "model": "products.stock",
+    "pk": 4,
+    "fields": {
+        "amount": 550,
+        "product": 2,
+        "size": 8,
+        "color": 1,
+        "quantity": 10
+    }
+},
+{
+    "model": "products.stock",
+    "pk": 5,
+    "fields": {
+        "amount": 600,
+        "product": 2,
+        "size": 10,
+        "color": 1,
+        "quantity": 10
+    }
+},
+{
+    "model": "products.stock",
+    "pk": 6,
+    "fields": {
+        "amount": 650,
+        "product": 2,
+        "size": 9,
+        "color": 1,
+        "quantity": 10
+    }
+},
+{
+    "model": "products.stock",
+    "pk": 7,
+    "fields": {
+        "amount": 420,
+        "product": 3,
+        "size": 4,
+        "color": 1,
+        "quantity": 10
+    }
+},
+{
+    "model": "products.stock",
+    "pk": 8,
+    "fields": {
+        "amount": 450,
+        "product": 3,
+        "size": 3,
+        "color": 1,
+        "quantity": 10
+    }
+},
+{
+    "model": "products.stock",
+    "pk": 9,
+    "fields": {
+        "amount": 500,
+        "product": 3,
+        "size": 5,
+        "color": 3,
+        "quantity": 10
+    }
+},
+{
+    "model": "products.stock",
+    "pk": 10,
+    "fields": {
+        "amount": 799,
+        "product": 3,
+        "size": 6,
+        "color": 3,
+        "quantity": 10
+    }
+}]
